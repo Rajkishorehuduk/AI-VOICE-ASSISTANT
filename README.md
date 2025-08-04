@@ -26,11 +26,11 @@ def speak(text):
 
 def get_command():
     with sr.Microphone() as source:
-        print("Listening...")
+        print("Listening Please wait...")
         audio = recognizer.listen(source)
         try:
             command = recognizer.recognize_google(audio)
-            print("You said:", command)
+            print("You said..:", command)
             return command.lower()
         except:
             speak("Sorry, I didn't catch that.")
