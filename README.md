@@ -171,7 +171,6 @@ def run_assistant():
                 speak(google_search(command))
             else:
                 speak("Please say 'Google' or 'Wikipedia' to search your query.")
-
 if __name__ == "__main__":
     print("Advanced Assistant started...")
     run_assistant()
