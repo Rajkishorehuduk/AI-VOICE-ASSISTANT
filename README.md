@@ -57,7 +57,6 @@ def get_location():
         return f"You are in {city}, {region}, {country}."
     except:
         return "Sorry, I couldn't fetch your location."
-
 def get_news():
     url = f"https://newsapi.org/v2/top-headlines?country=in&apiKey={NEWS_API_KEY}"
     response = requests.get(url)
