@@ -6,7 +6,6 @@ import wikipedia
 import webbrowser
 import time
 from googlesearch import search
-
 # ====== SET YOUR API KEYS HERE ======
 WEATHER_API_KEY = "YOUR_OPENWEATHERMAP_API_KEY"  # <-- Replace with your OpenWeatherMap API key
 NEWS_API_KEY = "YOUR_NEWSAPI_API_KEY"            # <-- Replace with your NewsAPI API key
